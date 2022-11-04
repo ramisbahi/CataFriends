@@ -55,6 +55,7 @@ extension ViewController: UITableViewDataSource {
         cell.nameLabel.text = text
         cell.photo.image = UIImage(named: "genericprofile")
         //cell.textLabel?.text = text
+        
         return cell
     }
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
