@@ -1,4 +1,5 @@
-[
+{
+    "data": [
     {
     "name": "Rami Sbahi", 
     "photo": "https://dl.airtable.com/.attachments/26d42afb09102f02aa7b8f7e1186d457/a08c5128/15c917f9.jpeg",
@@ -11,3 +12,6 @@
         "questions" : ["How many countries did he visit in 4 months?", "Where did he work?", "Where did he study abroad?"]
     }
 ]
+    
+}
+

@@ -17,6 +17,8 @@
 		36940385291498640018012A /* CataTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36940384291498640018012A /* CataTrackerTests.swift */; };
 		3694038F291498640018012A /* CataTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694038E291498640018012A /* CataTrackerUITests.swift */; };
 		36940391291498640018012A /* CataTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36940390291498640018012A /* CataTrackerUITestsLaunchTests.swift */; };
+		4BAC88B12914DC9B005DDB91 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAC88B02914DC9B005DDB91 /* Models.swift */; };
+		4BAC88B32914E47B005DDB91 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAC88B22914E47B005DDB91 /* ProfileViewController.swift */; };
 		4BC521C22914B0E1009A4DF7 /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BC521C12914B0E1009A4DF7 /* mock.json */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		3694038A291498640018012A /* CataTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CataTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3694038E291498640018012A /* CataTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CataTrackerUITests.swift; sourceTree = "<group>"; };
 		36940390291498640018012A /* CataTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CataTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BAC88B02914DC9B005DDB91 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4BAC88B22914E47B005DDB91 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4BC521C12914B0E1009A4DF7 /* mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,7 +111,9 @@
 				3694036C291498620018012A /* SceneDelegate.swift */,
 				3694036E291498620018012A /* ViewController.swift */,
 				36940370291498620018012A /* Main.storyboard */,
+				4BAC88B22914E47B005DDB91 /* ProfileViewController.swift */,
 				4BC521C12914B0E1009A4DF7 /* mock.json */,
+				4BAC88B02914DC9B005DDB91 /* Models.swift */,
 				36940376291498640018012A /* Assets.xcassets */,
 				36940378291498640018012A /* LaunchScreen.storyboard */,
 				3694037B291498640018012A /* Info.plist */,
@@ -265,10 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BAC88B32914E47B005DDB91 /* ProfileViewController.swift in Sources */,
 				3694036F291498620018012A /* ViewController.swift in Sources */,
 				36940375291498620018012A /* CataTracker.xcdatamodeld in Sources */,
 				3694036B291498620018012A /* AppDelegate.swift in Sources */,
 				3694036D291498620018012A /* SceneDelegate.swift in Sources */,
+				4BAC88B12914DC9B005DDB91 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
