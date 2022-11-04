@@ -1,0 +1,13 @@
+[
+    {
+    "name": "Rami Sbahi", 
+    "photo": "https://dl.airtable.com/.attachments/26d42afb09102f02aa7b8f7e1186d457/a08c5128/15c917f9.jpeg",
+    "questions": ["Where did he study abroad?", "What was the app he made?", "What does he do for fun?"]
+    },
+
+    {
+        "name": "Chris Yang",
+        "photo": "https://dl.airtable.com/.attachments/f39b2695c5cc476f1d77812ce4457d77/832d6521/Chris_Yang_Picture.jpg",
+        "questions" : ["How many countries did he visit in 4 months?", "Where did he work?", "Where did he study abroad?"]
+    }
+]
