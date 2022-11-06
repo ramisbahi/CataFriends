@@ -21,6 +21,7 @@ class CameraViewController: UIViewController {
         let picker = UIImagePickerController()
             picker.sourceType = .camera
             picker.delegate = self
+        picker.allowsEditing = true
             present(picker, animated: true)
     }
 
@@ -32,11 +33,16 @@ extension CameraViewController: UIImagePickerControllerDelegate, UINavigationCon
     }
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         picker.dismiss(animated: true, completion: nil)
-        guard let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage
+        guard let image = info[UIImagePickerController.InfoKey.editedImage] as? UIImage
         else{
             return
         }
         imageView.image = image
+        
+        let vc = TableTableViewCell()
+        vc.photo.image = image
+        
+        //ViewController().cell.photo.image = image
         
     }
 }

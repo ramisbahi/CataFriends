@@ -51,8 +51,11 @@ extension ViewController: UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let text = result?.data[indexPath.row].name
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = text
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableTableViewCell
+        cell.nameLabel.text = text
+        cell.photo.image = UIImage(named: "genericprofile")
+        //cell.textLabel?.text = text
+        
         return cell
     }
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
