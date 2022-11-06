@@ -1,28 +1,47 @@
-from flask import Flask
+from flask import Flask, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
+import json
 # create the extension
-db = SQLAlchemy()
+
 # create the app
 app = Flask(__name__)
+
+
 # configure the SQLite database, relative to the app instance folder
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///project.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://zphbdiog:M0uVZ2pSe8wuwnBOTQfmpUEkmKUi1iAJ@suleiman.db.elephantsql.com/zphbdiog"
 # initialize the app with the extension
+db = SQLAlchemy(app)
 db.init_app(app)
+#db.commit()
 
 
-class Member(db.Model):
-    name = db.Column(db.String, primary_key=True)
-    photo = db.Column(db.String)
-    q1 = db.Column(db.String)
-    q2 = db.Column(db.String)
-    q3 = db.Column(db.String)
+class Members(db.Model):
+    name = db.Column(db.String(50), primary_key=True)
+    photo = db.Column(db.String(200))
+    q1 = db.Column(db.String(200))
+    q2 = db.Column(db.String(200))
+    q3 = db.Column(db.String(200))
+
+    def __repr__(self):
+        return f'<Member: {self.name}>'
 
 with app.app_context():
     db.create_all()
 
 
 #members query
+@app.route("/members")
+def user_list():
+    #members = Member.query.all()
+    members = Members.query.all()
+    ret = {"data" : []}
+    for member in members:
+        ret["data"].append({
+            "name" : member.name,
+            "photo": member.photo,
+            "questions":[member.q1,member.q2,member.q3]
+        })
+    return json.dumps(ret) 
 
-
-#individual member query
+app.run(debug = True)
