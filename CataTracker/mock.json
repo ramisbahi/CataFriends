@@ -10,7 +10,61 @@
         "name": "Chris Yang",
         "photo": "https://dl.airtable.com/.attachments/f39b2695c5cc476f1d77812ce4457d77/832d6521/Chris_Yang_Picture.jpg",
         "questions" : ["How many countries did he visit in 4 months?", "Where did he work?", "Where did he study abroad?"]
+    }, 
+
+    {
+        "name": "Frankie Willard",
+        "photo": "https://storage.googleapis.com/elated-coil-285118.appspot.com/member_images/frankie-willard.jpg",
+        "questions": ["Where has he gone backpacking?", "What music does he listen to?", "What is his favorite video game?"]
+    },
+
+    {
+        "name": "Michael Cronin",
+        "photo": "https://storage.googleapis.com/elated-coil-285118.appspot.com/member_images/michael-cronin.jpg",
+        "questions": ["What type of dogs does he have?", "What is his favorite show right now?", "What are his best IMDb reviews?"]
+    },
+
+    {
+        "name": "Ryan Zhu",
+        "photo": "https://storage.googleapis.com/elated-coil-285118.appspot.com/member_images/ryan-zhu.jpg",
+        "questions": ["How far can he throw a frisbee?", "What is his go-to late night food spot?", "What sports does he like to play?"]
+    },
+
+    {
+        "name": "Brian Young",
+        "photo": "https://dl.airtable.com/.attachments/86ec286bbac849137b097effa4b4a401/fe4562f8/ScreenShot2021-06-18at7.22.28PM.png",
+        "questions": ["What does he like to cook?", "What is Stage at Swift?", "What's his favorite show?"]
+    },
+
+    {
+        "name": "Rachel Qian",
+        "photo": "https://dl.airtable.com/.attachments/204dd420fe19c1f77f57d4ce40c028ae/9440ce06/IMG_7034.jpg",
+        "questions": ["Does she go to the Durham farmers market?", "What movie soundtracks does she love?", "Has she been to any concerts recently?"]
+
+    },
+
+    {
+        "name": "Meg Mahoney",
+        "photo": "https://dl.airtable.com/.attachments/6b441a76031989ae0a4f568b8ad55ee9/c1618fa2/MegMahoney",
+        "questions": ["What is the best concert she has been to?", "What is her favorite type of dance?", "What songs are on her road trip playlist?"]
+
+    },
+
+    {
+        "name": "Danica Bajaj", 
+        "photo": "https://dl.airtable.com/.attachments/4d99605108b723639bdf6efdad43ff85/bdbb9904/0N7A0861.jpeg",
+        "questions": ["When did she pick up the guitar?", "What tv show does she love?", "What is her favorite off campus place to eat?"]
+
+    },
+
+    {
+        "name": "Caitlin Dougherty",
+        "photo": "https://dl.airtable.com/.attachments/cb388bdb64a97091b2848d56f47a11b3/d62ee865/IMG_8486.jpg",
+        "questions": ["Has she watched any good documentaries recently?", "What types of puzzle does she like to solve?", "What book is on the top of her reading list?"]
+
     }
+
+
 ]
     
 }
